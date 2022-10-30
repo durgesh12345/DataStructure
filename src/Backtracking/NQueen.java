@@ -54,6 +54,7 @@ public class NQueen {
                 return false;
             }
         }
+        System.out.println("i ma commit");
         return true;
     }
 
