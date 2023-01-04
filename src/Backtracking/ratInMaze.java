@@ -7,6 +7,7 @@ public class ratInMaze {
         System.out.println(PathPossible);
     }
 
+
     private static boolean RatInMaze(int[][] maze) {
         int n = maze.length;
         int path[][] = new int [n][n];
