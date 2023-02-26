@@ -22,13 +22,7 @@ public class BreathFirstTraversal {
 
         bfs(adjMatrix);
         System.out.println();
-//        System.out.println("|  0  |_|  1  |_|  2  |_|  3  |_|  4  |_");
-//        for (int i = 0; i < adjMatrix.length; i++) {
-//            for (int j = 0; j < adjMatrix.length; j++) {
-//                System.out.print("["+adjMatrix[i][j]+"]");
-//            }
-//            System.out.println();
-//        }
+
     }
 
     private static void bfs(int[][] adjMatrix) {
@@ -47,5 +41,8 @@ public class BreathFirstTraversal {
                 }
             }
         }
+    }
+    private static void bfs2(int[][] adjMatrix){
+        
     }
 }
